@@ -1,0 +1,149 @@
+.top{
+    background: transparent url(menningarnott.png);
+    background-size: 1500px;
+    background-size: center;
+    
+    }
+
+ .text{
+position: center;
+    }
+
+    html {
+      box-sizing: border-box;
+    
+     scroll-behavior: smooth;
+    background-color: #8a2be2;
+    }
+
+
+
+.cont{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  .cards{
+    background: rgb(2, 244, 183);
+    width: 260px;
+height: 400px;
+  margin: 10px;
+ 
+  }
+
+  .food{
+    background-color:aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+   
+  }
+
+  .f-1{
+    background-image: url(plastic.jpg);
+  }
+
+
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cardss{
+    background: rgb(10, 212, 169);
+    width: 270px;
+height: 400px;
+  margin: 10px;
+  
+  }
+
+  .food{
+    background-color:aqua;
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+   
+  }
+
+  .f-1{
+    background-image: url(party.jpg);
+  }
+
+  .c-1{
+    background-image: url(red.jpg);
+  }
+
+  .b-2{
+    background-image: url(folk.jpg);
+  }
+
+  .a-2{
+    background-image: url(house.jpg);
+  }
+
+  .c-2{
+    background-image: url(hus.jpg);
+  }
+  .l-1{
+    background-image: url(vikingur.jpg);
+  }
+  .m-2{
+    background-image: url(fiskur.jpg);
+  }
+  .b-1{
+    background-image: url(artkona.jpg);
+  }
+  .up{
+    display: flex;
+    justify-content: center;
+  }
+
+  .bot{
+    display: flex;
+    justify-content: center;
+  }
+
+  .bott{
+    display: flex;
+    justify-content: center;
+  }
+
+  h1{
+   margin: 5vh auto;
+   text-align: center;
+   position: relative;
+  
+  }
+
+  h1::before{
+    content: "";
+    height: 2px;
+    width: 60vw;
+    background-color: #000;
+    position: absolute;
+    top: 20%;
+   right: 0;
+   z-index: -3;
+  }
+
+  h1::after{
+    content: "";
+    height: 2px;
+    width: 60vw;
+    background-color: #000;
+    position: absolute;
+    top: 20%;
+   left: 0;
+   z-index: -2;
+  }
+  span{
+    background: #8a2be2;
+    padding: 0 15px;
+  }
+
+  .footer{
+    background-image: url(reykjavik.png);
+    background-image: url(landsbankinn.png);
+  }
